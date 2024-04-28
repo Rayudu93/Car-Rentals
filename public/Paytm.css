@@ -1,0 +1,137 @@
+
+
+
+.Payment-menu{
+    margin: 10px 0px 0px 200px;
+    display: flex;
+}
+.Payment-menu-1{
+    border: 1px solid gray;
+    /* padding: 20px; */
+    margin-right: 0px;
+    padding-right: 0px;
+    padding: 20px 0px 20px 0px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.Payment-menu-1 h2{
+    margin: 0px;
+    margin-left: 50px;
+}
+.Payment-menu-2{
+    /* padding: 0px; */
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+    padding-right: 300px;
+}
+.Payment-menu-2 li{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.Payment-menu2{
+    margin-left: 50px;
+    border: 1px solid gray;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.Payment-menu2 h1,h2{
+    margin: 0px;
+    padding-top: 23px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+}
+.Payment-menu2 p{
+    margin: 0px;
+}
+.Payment-menu2-1{
+    margin: 45px 0px 0px 50px;
+}
+.Payment-menu2-1 button{
+    width: 380px;
+    height: 40px;
+    color: white;
+    background-color: green;
+}
+.Payment-menu2-1 button:active{
+    background-color: white;
+    color: green;
+}
+.bi-credit-card{
+    font-size: 50px;
+    margin-left: 180px;
+    /* color: green; */
+}
+.bi-wallet2{
+    font-size: 50px;
+    margin-left: 50px;
+    color: green;
+}
+.car-name{
+    margin: 0px;
+    padding-top: 23px;
+    padding-bottom: 20px;
+    /* border-bottom: 1px solid gray; */
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    font-size: x-large;
+}
+
+
+input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+.number-input-container {
+    display: flex;
+    align-items: center;
+    margin-left: 28px;
+}
+.quantity-btn {
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: white;
+    border: none;
+    color: rgb(182, 176, 176);
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    margin-left: 5px;
+}
+.quantity-btn1{
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0px 0px 5px gray;
+    border: none;
+}
+.reveal{
+    position: relative;
+    left: 20px;
+}
+.reveal1{
+    position: relative;
+    right: 20px;
+}
+.Custom-bt button{
+    margin: 0;
+    padding: 0; 
+    margin: 40px 0px 0px 60px; 
+    outline: none; 
+    border: none;
+    background-color: green;
+    padding: 3px;
+    border: 1px solid green;
+    border-radius: 2px;
+    color: white;
+}
+.Custom-bt button:hover{
+    background-color: white;
+    color: green;
+}

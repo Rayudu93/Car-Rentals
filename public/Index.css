@@ -1,0 +1,540 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+*{
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+    /* color: green; */
+    /* list-style-type:none; */
+    /* background-color: rgb(240, 237, 234); */
+}
+.logo{
+    width: 80px;
+    padding: 10px 10px 10px 10px;
+    background-color: transparent;
+}
+.logo1{
+    width: 130px;
+    /* padding: 10px 10px 10px 10px; */
+    background-color: transparent;
+    /* margin-left: 150px; */
+    margin: 0px 150px 0px 150px;
+}
+.top-menu{
+    display: flex;
+    /* margin-bottom: 10px; */
+    /* justify-content: space-evenly; */
+    /* background-color: gra; */
+    /* border-bottom: 1px solid gray; */
+}
+.top-menu-content{
+    display: flex;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-right: 100px;
+    list-style-type: none;
+}
+.top-menu-bt{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/* #top-menu-bt4-2:hover{
+    background-color: white;
+    color: green;
+}
+#top-menu-bt4-2{
+    color: white;
+    border-radius: 2px;
+    margin-left: 20px;
+} */
+
+.login a{
+    background-color: rgb(4, 139, 4);
+    padding: 8px;
+    border: 1px solid black;
+    color: white;
+    border-radius: 2px;
+}
+.login a:hover{
+    background-color: white;
+    color: green;
+}
+
+.search-menu{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+    /* margin-bottom: 40px; */
+}
+
+.search-menu{
+    border:1px solid #000;
+    padding:12px;
+    border-radius:12px;
+}
+
+#search-box{
+    margin: 20px 5px;
+    padding:0px 5px;
+    height:60px;
+}
+
+.nav-tabs li{
+    margin-top:30px;
+}
+.search-menu input{
+    border:none;
+    outline: none;
+    padding-top:0px;
+}
+.search-menu-btn{
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    margin-left: 100px;
+    color: black;
+}
+.top-menu input{
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid green;
+    outline: none;
+    font-size: 16px;
+}
+.top-menu input:focus{
+    box-shadow: 0 0 5px green;
+}
+.container{
+    margin: 0px;
+    text-align: center;
+    padding-top: 225px;
+    padding-bottom: 205px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url("Thar.jpg"); */
+    /* background-color: rgb(223, 180, 101); */
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.container-car{
+    position: relative;
+    left: 20px;
+    top: 40px;
+}
+.date-menu{
+    background-color: aliceblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 500px;
+    border-radius: 50px;
+}
+.input-group{
+    padding-left: 10px;
+    padding-right: 20px;
+    border-right: 2px solid black;
+
+}
+.submit-bar{
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.secondary{
+    display: flex;
+    /* text-decoration: solid; */
+    /* padding-left: 500px;
+    padding-right: 500px; */
+    font-size: x-large;
+    justify-content: center;
+}
+.secondary-bt{
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: navajowhite;
+    color: black;
+    list-style-type:none ;
+    text-decoration: none;
+}
+.anchor-tag{
+    text-decoration: none;
+}
+.img-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+}
+.img-container-btn{
+    /* padding: 100px 160px 100px 160px; */
+    padding: 5px 5px 10px 5px;
+    border: 2px solid black;
+    /* margin: 10px; */
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+.img-shape{
+    width: 330px;
+    border-radius: 10px
+}
+.more{
+    padding-left: 25px;
+    display: flex;
+}
+.more-1{
+    font-size: x-large;
+    margin-top: 40px;
+    margin-left: 1025px;
+    color: green;
+}
+.sellers{
+    display: flex;
+
+}
+.sellers-btn1{
+    padding-top: 38px;
+    padding-left: 10px;
+}
+.sellers-btn2{
+    padding-top: 38px;
+    padding-left: 10px;
+}
+.sellers-btn3{
+    padding-top: 38px;
+    padding-left: 10px;
+}
+.sellers-btn4{
+    margin-top: 40px;
+    padding-left: 10px;
+}
+.sellers-btn5{
+    margin-top: 40px;
+    padding-left: 10px;
+}
+.sellers-btn6{
+    margin-top: 38px;
+    padding-left: 10px;
+}
+#toyota{
+    margin-left: 300px;
+    width: 25px;
+}
+#mercedes-benz{
+    width: 25px;
+    margin-left: 300px;
+}
+#volkswagen{
+    width: 25px;
+    margin-left: 250px;
+}
+#hyundai{
+    width: 25px;
+    margin-left: 270px;
+}
+#audi{
+    width: 25px;
+    margin-left: 250px;
+}
+#tata{
+    width: 25px;
+    margin-left: 360px;
+}
+.about{
+    background-color: black;
+    border-top: 1px solid #ccc;
+    margin-top: 30px;
+    display: flex;
+    padding-left: 25px;
+    color: #ccc;
+}
+.about-btn{
+    color: #ccc;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 25px;
+    /* cursor: pointer; */
+}
+.about-btn p{
+    cursor: pointer;
+}
+.last{
+    margin-left: 30px;
+    padding-left: 25px;
+    margin-top:40px ;
+    border-top: 1px solid #ccc;
+}
+.last-ul{
+    padding-left: 30px;
+}
+.last h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.last p {
+    color: #666;
+    line-height: 1.6;
+}
+/*PRIVACY*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container1{
+    margin-left: 30px;
+    padding: 20px;
+}
+.container1-ul{
+    margin-left: 30px;
+}
+/* Style for the privacy and security section*/
+.privacy-security {
+    margin-top: 40px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.privacy-security h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.privacy-security p {
+    color: #666;
+    line-height: 1.6;
+}
+.terms-conditions{
+    background-color: black;
+    color: #ccc;
+    padding-top:40px;
+    padding-bottom: 30px;
+    /* margin-top: 50px; */
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+.car-detail1{
+    display: flex;
+    list-style-type: none;
+}
+.car-detail1-1{
+    font-size: xx-large;
+    padding-left: 10px;
+}
+.car-detail1-2{
+    margin: 0px;
+    font-size: x-large;
+    /* margin-left: 140px; */
+    padding: 5px 10px 5px 10px;
+    border: 2px solid skyblue;
+    border-radius: 25px;
+}
+.car-detail1-3{
+    font-size: large;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+.car-detail1-4{
+    font-size: large;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+.car-detail1-5{
+    font-size: larger;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 20px;
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.31); */
+}
+.car-detail1-6{
+    font-size: larger;
+    margin-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 20px;
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.31); */
+}
+.car-detail1-7{
+    font-size: xx-large;
+    padding-top: 10px;
+    padding-left: 10px;
+    /* border-top: 1px solid rgba(0, 0, 0, 0.31); */
+}
+.car-detail1-8{
+    font-size: small ;
+    padding-top: 27px;
+    padding-left: 5px;
+    /* border-top: 1px solid rgba(0, 0, 0, 0.31); */
+}
+.car-detail1-9{
+    font-size: large;
+    padding-top: 23px;
+    padding-left: 5px;
+    /* border-top: 1px solid rgba(0, 0, 0, 0.31); */
+
+}
+.car-detail1-10{
+    font-size: x-large;
+    margin-top: 5px;
+    margin-left: 25px;
+    padding: 8px 10px 5px 10px;
+    border-radius: 25px;
+    background-color: rgb(19, 176, 19);
+    border: 1px solid rgba(0, 0, 0, 0.31);
+    color: white;
+}
+.more1{
+    font-size: x-large;
+    margin-left: 1070px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid green;
+    background-color: rgb(81, 232, 81);
+
+}
+.car-detail1-10:hover{
+    background-color: white;
+    color: green;
+}
+.car-detail1-img{
+    margin-left: 80px;
+}
+.car-detail1-img2{
+    margin-left: 40px;
+}
+#car-detail1-img3{
+    margin-left: 70px;
+    margin-top: 70px;
+    /* border-top: 1px solid rgba(0, 0, 0, 0.31); */
+    color: green;
+}
+.nav-tabs{
+    display: flex;
+    list-style-type: none;
+    margin-left: 80px;
+}
+.nav-item{
+    margin: 20px 50px 10px 30px ;
+}
+.nav-link{
+    text-decoration: none;
+    color: rgb(44, 43, 43);
+}
+.car-top{
+    padding: 325px;
+}
+.search-menu-i{
+    position: relative;
+    right: 30px;
+}
+
+.third-menu{
+    margin-top: 50px;
+    border-top: 1px solid #ccc;
+}
+.third-menu-item{
+    margin-top: 90px ;
+    margin-left: 120px;
+    padding: 70px 70px 30px 70px;
+    border: 1px solid gray;
+    border-radius: 10%;
+}
+.third-menu-item2{
+    margin-top: 90px ;
+    margin-left: 30px;
+    padding: 70px 70px 30px 70px;
+    border: 1px solid gray;
+    border-radius: 10%;
+}
+.third-menu-item3{
+    margin-top: 90px ;
+    margin-left: 30px;
+    padding: 70px 90px 30px 90px;
+    border: 1px solid gray;
+    border-radius: 10%;
+}
+.third-menu-item4{
+    margin-top: 90px ;
+    margin-left: 30px;
+    padding: 70px 50px 30px 50px;
+    border: 1px solid gray;
+    border-radius: 10%;
+}
+.third-menu-item-i{
+    position: relative;
+    left: 55px;
+    top: 60px;
+    padding: 0px;
+    margin: 0px;
+    background-color: aliceblue;
+    font-size: 3rem;
+}
+.third-menu-item-j{
+    position: relative;
+    left: 80px;
+    top: 60px;
+    padding: 0px;
+    margin: 0px;
+    background-color: aliceblue;
+    font-size: 3rem;
+}
+.third-menu-item-c{
+    position: relative;
+    font-size: 3rem;
+    left: 30px;
+    bottom: 100px;
+    padding: 30px;
+    border:  1px solid gray;
+    border-radius: 50%;
+    background-color: navy;
+    color: white;
+}
+.third-menu-item-c2{
+    position: relative;
+    font-size: 3rem;
+    left: 30px;
+    bottom: 100px;
+    padding: 30px;
+    border:  1px solid gray;
+    border-radius: 50%;
+    background-color: orange;
+    color: white;
+}
+.third-menu-item-c3{
+    position: relative;
+    font-size: 3rem;
+    left: 20px;
+    bottom: 100px;
+    padding: 30px;
+    border:  1px solid gray;
+    border-radius: 50%;
+    background-color: navy;
+    color: white;
+}
+.third-menu-item-c4{
+    position: relative;
+    font-size: 3rem;
+    left: 50px;
+    bottom: 100px;
+    padding: 30px;
+    border:  1px solid gray;
+    border-radius: 50%;
+    background-color: orange;
+    color: white;
+}
+.icon-container1 button{
+    position: relative;
+    bottom: 0px;
+    color: #ccc;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment | Car Rental</title>
+    <link rel="stylesheet" href="Paytm.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <h1 style="margin: 100px 0px 0px 200px;">Car Details</h1>
+    <div class="Payment-menu">
+        <div class="Payment-menu-1">
+            <div style="display: flex; margin: 20px 0px 0px 20px;">
+                <img src="../Images/Thar.jpg" alt="" width="250px" height="150" class="car-image">
+                <div>
+                    <h3 class="car-name">Thar</h3>
+                    <div class="number-input-container">
+                        <h3>No.of Days:</h3>
+                        <button class="quantity-btn reveal" onclick="decrementValue()">-</button>
+                        <input type="number" class="quantity-btn1" value="1" min="1" max="10" id="daysInput" oninput="calculateDate()">
+                        <button class="quantity-btn reveal1" onclick="incrementValue()">+</button>
+                    </div>
+                </div>
+                <i class="bi bi-credit-card"></i>
+                <!-- <i class="bi bi-wallet2"></i> -->
+            </div>
+            <div>
+                <ul class="Payment-menu-2">
+                    <li id="result1" class="car-date">Take : Mon, 15 Apr,11:00 AM</li>
+                    <li id="result" class="car-date1">Return : Tue, 16 Apr,11:00 AM</li>
+                    <li>Cancellation charges will be applied as per policy</li>
+                </ul>
+            </div>
+            <div style="display: flex;">
+                <h3 style=" margin: 5px 0px 0px 10px ; padding-bottom: 20px; margin-top: 10px;">Price :</h3>
+                <p style=" margin: 0; padding: 0; margin-left: 600px; margin-right: 10px; font-size: x-large; margin-top: 10px;" class="car-price" id="car-price1">₹700</p>
+            </div>
+        </div>
+        
+        <div>
+            <div class="Payment-menu2">
+                <h2 ><p>Order Summary</p></h2>
+                <h2><p>Repay | Payment</p><p style="margin-left: 70px;" class="car-price1-1" id="car-price1-1">₹700</p></h2>
+                <h2><p>Handling Fee</p><p style="margin-left: 105px;" class="car-price1" id="car-price2">₹0.00</p></h2>
+                <h2 style="border: none;"><p>Total :</p><p style="margin-left: 180px;" class="car-price2" id="car-price3">₹700.00</p></h2>
+            </div>
+            <div class="Payment-menu2-1">
+                <a id="mylink" href=""><button type="button">PAY NOW</button></a>
+            </div>
+        </div>
+    </div>
+    <script src="Payment.js"></script>
+
+
+
+
+</body>
+</html>

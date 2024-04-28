@@ -1,0 +1,149 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+*{
+    list-style-type: none;
+}
+
+.menu-R{
+    display: flex;
+    margin-top: 10px;
+}
+.menu-1{
+    padding-right: 10px;
+    border: 1px solid #666;
+    padding-bottom: 0px;
+    margin-top: 10px;
+}
+.menu-2{
+    /* background-color: red; */
+    padding-bottom: 0px;
+    margin: 0px;
+}
+.Filter-1{
+    border-bottom: 1px solid #666;
+    padding-right: 250px;
+    background-color: green;
+    margin-top: 20px;
+}
+.menu h2 {
+    margin-left: 20px;
+}
+.Filter-1 p{
+    padding-top: 15px;
+    color: aliceblue;
+    padding-left: 15px;
+}
+.Filter-2{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #666;
+    padding-left: 40px;
+}
+.Filter-3{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #666;
+}
+.Filter-4{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #666;
+    display: flex;
+}
+.Filter-4-1{
+    width: 50px;
+    margin-left: 30px;
+    padding: 20px 20px 0px 20px;
+    border: 1px solid #666;
+}
+.Filter-4-2{
+    /* width: 80px; */
+    margin-left: 30px;
+    padding: 20px;
+    border: 1px solid #666;
+}
+.Filter-5{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #666;
+}
+.Filter-5 input{
+    margin-left: 50px;
+    cursor: pointer;
+}
+.Filter-6{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #666;
+    display: flex;
+}
+.Filter-6 p{
+    margin-left: 20px;
+    padding: 10px 10px;
+    border: 1px solid #d0c5c5;
+    cursor: pointer;
+}
+.Filter-7{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #666;
+}
+.Filter-7 svg{
+    width: 50px;
+    margin-left: 10px;
+    padding: 10px 30px 10px 30px;
+    border: 1px solid #d0c5c5;
+}
+.Filter-7 img{
+    width: 50px;
+    margin-left: 10px;
+    padding: 10px 30px 10px 30px;
+    border: 1px solid #d0c5c5;
+}
+.Filter-7 img:focus{
+    background-color: green;
+    color: #000;
+}
+.Filter-8{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #666;
+}
+.menu-s{
+    margin: 0px;
+    display: flex;
+}
+.menu-s p{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+.menu-s-select{
+    margin-left: 190px;
+    outline: none;
+}
+.menu-s-select2{
+    margin-left: 180px;
+    outline: none;
+}
+.menu-s-select3{
+    margin-left: 180px;
+    outline: none;
+}
+.Filter-3-1{
+    display: flex;
+}
+.Filter-3-2{
+    margin-left: 10px;
+    border: 1px solid gray;
+    padding: 10px 10px 0px 10px;
+}
+.Filter-3-3{
+    margin-left: 10px;
+    border: 1px solid gray;
+    padding: 10px 10px 0px 0px;
+    padding-bottom: 10px;
+}
+.Filter-3-4{
+    margin-left: 10px;
+    border: 1px solid gray;
+    padding: 10px 10px 0px 0px;
+}
+.Filter-3-5{
+    margin-left: 10px;
+    border: 1px solid gray;
+    padding: 10px 10px 0px 0px;
+}
